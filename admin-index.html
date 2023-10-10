@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tampilan Dashboard Admin</title>
+  <link rel="stylesheet" href="/admin/css/styleDasboard.css" />
+</head>
+
+<body>
+  <div style="display: flex">
+    <!-- awal sidebar -->
+    <div class="sidebar">
+      <ul style="margin-top: 0">
+        <li style="list-style: none"><a style="text-decoration: none; color: white"
+            href="/admin/TampilanDashboardAdmin.html"><img src="/assets/img-admin/Logo.png" alt=""
+              style="width: 18px; height: 21px; margin-right: 8px;">Dashboard</a></li>
+        <li style="list-style: none"><a style="text-decoration: none; color: white" href="/admin/kelolapesanan.html"><img
+              src="/assets/img-admin/Bag.png" alt="" style="width: 23px; height: 26px; margin-right: 8px;">Manage Order</a></li>
+        <li class="lidropdown" style="list-style: none">
+          <a href=""> <img src="/assets/img-admin/Category.png" alt="" style="width: 23px; height: 26px; margin-right: 8px;">Manage
+            Shop</a>
+          <img src="/assets/img-admin/Path.png" style="margin-left: 50px" alt="" />
+          <div class="dropdown">
+            <ul>
+              <li style="list-style: none;"><a href="/admin/KelolaKategori.html">Category</a></li>
+              <li style="list-style: none"><a href="/admin/KelolaKategori.html">Product</a></li>
+              <li style="list-style: none"><a href="/admin/KelolaMetode.html">Payment method</a></li>
+            </ul>
+          </div>
+        </li>
+        <li style="list-style: none"><a style="text-decoration: none; color: white" href="/admin/KelolaAdmin.html"><img
+              src="/assets/img-admin/Profile.png" alt="" style="width: 23px; height: 26px; margin-right: 8px;">Manage Admin</a></li>
+        <li style="list-style: none"><a style="text-decoration: none; color: white" href="/admin/KelolaPelanggan.html"><img
+              src="/assets/img-admin/3 User.png" alt="" style="width: 23px; height: 26px; margin-right: 8px;">Manage Costumer</a></li>
+        <li style="list-style: none"><a style="text-decoration: none; color: white" href="/admin/login_admin.html"><img src="/assets/img-admin/Logout.png"
+              alt="" style="width: 23px; height: 26px; margin-right: 8px;">Log Out</a></li>
+      </ul>
+    </div>
+    <!-- akhir sidebar -->
+
+    <!-- awal konten -->
+    <div class="konten">
+      <div class="content">
+        <div class="isi">
+          <p>Welcome to Just Thrift</p>
+          <p>Management App</p>
+          <p class="isi2">You are logged in as an administrator</p>
+        </div>
+      </div>
+      <div class="isi3">
+        <div class="kot1">
+          <div class="txtup1" style="font-size: 64px; color: white"><img style="width: 70px; height: 80px"
+              src="/assets/img-admin/kotak1.png" alt="" />0</div>
+          <div class="txt1">Customer</div>
+        </div>
+        <div class="kot2">
+          <div class="txtup2" style="font-size: 64px; color: white"><img style="width: 70px; height: 80px"
+              src="/assets/img-admin/kotak2.png" alt="" />0</div>
+          <div class="txt2">
+            <p>Order</p>
+          </div>
+        </div>
+        <div class="kot3">
+          <div class="txtup3" style="font-size: 64px; color: white"><img style="width: 70px; height: 80px"
+              src="/assets/img-admin/kotak3.png" alt="" />0</div>
+          <div class="txt3">
+            <p>Payment</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir konten -->
+  </div>
+</body>
+
+</html>
